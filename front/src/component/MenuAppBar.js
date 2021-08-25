@@ -17,10 +17,11 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
         // marginRight: theme.spacing(2),
-        height: "7vmin"
+        height: "6vmin"
     },
     title: {
         flexGrow: 1,
+        marginLeft: '2vh',
     },
     toolbar: {
         backgroundColor: "#375A7C",
