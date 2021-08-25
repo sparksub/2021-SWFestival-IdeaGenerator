@@ -1,4 +1,5 @@
 import React from "react";
+import "./LogoBox.css"
 import logo from "../logo.svg";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";

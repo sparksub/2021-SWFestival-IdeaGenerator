@@ -9,6 +9,7 @@ import GithubIcon from '@material-ui/icons/GitHub';
 
 import logo from '../logo.svg';
 import MenuItem from "@material-ui/core/MenuItem";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -17,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
         // marginRight: theme.spacing(2),
-        height: "6vmin"
+        height: "4vmin"
     },
     title: {
         flexGrow: 1,
@@ -37,7 +38,9 @@ export default function MenuAppBar() {
                 <Toolbar>
                     <img src={logo} className={classes.menuButton} alt={"logo image"} />
                     <Typography className={classes.title}>
-                        주제주세요
+                        <Box fontWeight="fontWeightBold">
+                            {"주제주세요"}
+                        </Box>
                     </Typography>
                     <Button color="inherit">About</Button>
                     <Button color="inherit">KHU-SWF</Button>
