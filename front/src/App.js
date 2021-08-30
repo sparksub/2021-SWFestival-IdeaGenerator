@@ -4,6 +4,7 @@ import './App.css';
 import MenuAppBar from "./component/MenuAppBar";
 import MovingTextBox from "./component/MovingTextBox";
 import LogoBox from "./component/LogoBox";
+import InputBox from "./component/InputBox";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <header className="App-header">
           <LogoBox />
           <MovingTextBox />
+          <InputBox />
       </header>
     </div>
   );

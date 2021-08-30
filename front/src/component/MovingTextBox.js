@@ -29,14 +29,15 @@ const metaText = ["내 방의 인테리어를 도와주는 증강현실 앱",
 
 const useStyles = makeStyles((theme) => ({
     root:{
-        width: "70%",
+        width: "60%",
         display: "flex",
         textAlign: "center",
         flexDirection: "column",
-        alignItems: "center"
+        alignItems: "center",
+        marginTop: "4vh"
     },
     textBox: {
-        marginTop: "3vh",
+        marginTop: "1vh",
         padding: "1vh",
         width: "100%",
         backgroundColor: "#CFD7E0",
